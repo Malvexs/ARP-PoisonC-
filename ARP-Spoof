@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <unistd.h>
 #include <string.h>
@@ -88,7 +89,7 @@ int main(int argc, char **argv){
     memcpy(device.sll_addr, packet.ar_sha, ETH_ALEN);
     device.sll_halen = htons(ETH_ALEN);
 
-    device.
+    
     sock = socket(AF_PACKET, SOCK_RAW, htons(ETH_P_ARP));
 
     while(1){
