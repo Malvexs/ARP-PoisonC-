@@ -61,9 +61,7 @@ int main(int argc, char **argv){
     packet.ar_hln = 0x6;
     packet.ar_pln = 0x4;
     packet.ar_op = htons(0x002);
-    char mac[] = "ec:a8:6b:ba:0e:de";
-    char ips[] = "192.168.1.1";
-    char eth[] = "eth0";
+   
     sscanf(argv[3], "%x:%x:%x:%x:%x:%x",
                                     (unsigned int *) &pacote->ar_sha[0],
                                     (unsigned int *) &pacote->ar_sha[1],
