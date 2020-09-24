@@ -37,7 +37,7 @@ int main(int argc, char **argv){
 
     if(argc < 5){
         cout << "[+]Error" << endl;
-        cout << "./ARP interface gateway-address your-mac victim-ip"" << endl;
+        cout << "./ARP interface gateway-address your-mac victim-ip" << endl;
         exit(1);
     }
 
